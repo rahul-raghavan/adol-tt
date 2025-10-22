@@ -18,106 +18,22 @@
       "day": "Mon",
       "slot": 1,
       "track": 1,
-      "teacher": "Sanya",
-      "code": "Sanya_1",
-      "subject": "Math",
-      "students": [
-        "Ekaansh",
-        "Parth"
-      ]
-    },
-    {
-      "day": "Mon",
-      "slot": 1,
-      "track": 2,
-      "teacher": "Shravani",
-      "code": "Sci_1",
-      "subject": "Science",
-      "students": [
-        "Neil",
-        "Aakash",
-        "Arhat",
-        "Abhigya",
-        "Sruthi"
-      ]
-    },
-    {
-      "day": "Mon",
-      "slot": 1,
-      "track": 3,
-      "teacher": "Usha",
-      "code": "Usha_4",
-      "subject": "Math",
-      "students": [
-        "Anik",
-        "Sahan",
-        "Sayan"
-      ]
-    },
-    {
-      "day": "Mon",
-      "slot": 1,
-      "track": 4,
-      "teacher": "Zeba",
-      "code": "SST_4",
-      "subject": "SST",
-      "students": [
-        "Arhan",
-        "Asmi",
-        "Anshika",
-        "Trisha",
-        "Aashmi"
-      ]
-    },
-    {
-      "day": "Mon",
-      "slot": 2,
-      "track": 1,
       "teacher": "Guru",
-      "code": "Sci_5",
+      "code": "Sci_3",
       "subject": "Science",
       "students": [
-        "Kanav",
-        "Myra",
-        "Sayan",
-        "Trisha",
-        "Mythili",
-        "Shlok"
-      ]
-    },
-    {
-      "day": "Mon",
-      "slot": 2,
-      "track": 2,
-      "teacher": "Shravani",
-      "code": "Sci_2",
-      "subject": "Science",
-      "students": [
-        "Mohammad",
-        "Ekaansh",
-        "Ishita",
-        "Nuha",
-        "Karthika"
-      ]
-    },
-    {
-      "day": "Mon",
-      "slot": 2,
-      "track": 3,
-      "teacher": "Usha",
-      "code": "Usha_1",
-      "subject": "Math",
-      "students": [
+        "Aashmi",
+        "Vedaant",
         "Anshika",
+        "Archana",
         "Asmi",
-        "Arjun",
-        "Arhat"
+        "Sahan"
       ]
     },
     {
       "day": "Mon",
-      "slot": 3,
-      "track": 1,
+      "slot": 1,
+      "track": 2,
       "teacher": "Sanya",
       "code": "Sanya_3",
       "subject": "Math",
@@ -129,8 +45,8 @@
     },
     {
       "day": "Mon",
-      "slot": 3,
-      "track": 2,
+      "slot": 1,
+      "track": 3,
       "teacher": "Usha",
       "code": "Usha_5",
       "subject": "Math",
@@ -140,19 +56,7 @@
     },
     {
       "day": "Mon",
-      "slot": 3,
-      "track": 3,
-      "teacher": "Zeba",
-      "code": "Eng_1",
-      "subject": "English",
-      "students": [
-        "Ekaansh",
-        "Aakash"
-      ]
-    },
-    {
-      "day": "Mon",
-      "slot": 4,
+      "slot": 2,
       "track": 1,
       "teacher": "Guru",
       "code": "Sci_4",
@@ -168,7 +72,7 @@
     },
     {
       "day": "Mon",
-      "slot": 4,
+      "slot": 2,
       "track": 2,
       "teacher": "Sanya",
       "code": "Sanya_4",
@@ -180,7 +84,7 @@
     },
     {
       "day": "Mon",
-      "slot": 4,
+      "slot": 2,
       "track": 3,
       "teacher": "Usha",
       "code": "Usha_3",
@@ -194,19 +98,99 @@
     },
     {
       "day": "Mon",
-      "slot": 4,
+      "slot": 2,
       "track": 4,
       "teacher": "Zeba",
-      "code": "SST_3",
-      "subject": "SST",
+      "code": "Eng_1",
+      "subject": "English",
+      "students": [
+        "Ekaansh",
+        "Aakash"
+      ]
+    },
+    {
+      "day": "Mon",
+      "slot": 3,
+      "track": 1,
+      "teacher": "Guru",
+      "code": "Sci_5",
+      "subject": "Science",
       "students": [
         "Kanav",
-        "Abhigya",
-        "Sruthi",
-        "Nuha",
-        "Sahan",
+        "Myra",
         "Sayan",
-        "Ishita"
+        "Trisha",
+        "Mythili",
+        "Shlok"
+      ]
+    },
+    {
+      "day": "Mon",
+      "slot": 3,
+      "track": 2,
+      "teacher": "Shravani",
+      "code": "Sci_2",
+      "subject": "Science",
+      "students": [
+        "Mohammad",
+        "Ekaansh",
+        "Ishita",
+        "Nuha",
+        "Karthika"
+      ]
+    },
+    {
+      "day": "Mon",
+      "slot": 3,
+      "track": 3,
+      "teacher": "Usha",
+      "code": "Usha_1",
+      "subject": "Math",
+      "students": [
+        "Anshika",
+        "Asmi",
+        "Arjun",
+        "Arhat"
+      ]
+    },
+    {
+      "day": "Mon",
+      "slot": 4,
+      "track": 1,
+      "teacher": "Sanya",
+      "code": "Sanya_1",
+      "subject": "Math",
+      "students": [
+        "Ekaansh",
+        "Parth"
+      ]
+    },
+    {
+      "day": "Mon",
+      "slot": 4,
+      "track": 2,
+      "teacher": "Shravani",
+      "code": "Sci_1",
+      "subject": "Science",
+      "students": [
+        "Neil",
+        "Aakash",
+        "Arhat",
+        "Abhigya",
+        "Sruthi"
+      ]
+    },
+    {
+      "day": "Mon",
+      "slot": 4,
+      "track": 3,
+      "teacher": "Usha",
+      "code": "Usha_4",
+      "subject": "Math",
+      "students": [
+        "Anik",
+        "Sahan",
+        "Sayan"
       ]
     },
     {
@@ -243,27 +227,32 @@
       "slot": 1,
       "track": 1,
       "teacher": "Gayatri",
-      "code": "Eng_3",
+      "code": "Eng_5",
       "subject": "English",
       "students": [
-        "Anik",
-        "Parth",
-        "Arhan",
-        "Arhat",
-        "Karthika",
-        "Kanav"
+        "Asmi",
+        "Nuha",
+        "Sahan",
+        "Shlok",
+        "Sruthi",
+        "Vedaant"
       ]
     },
     {
       "day": "Tue",
       "slot": 1,
       "track": 2,
-      "teacher": "Sanya",
-      "code": "Sanya_4",
-      "subject": "Math",
+      "teacher": "Zeba",
+      "code": "SST_1",
+      "subject": "SST",
       "students": [
+        "Arhat",
         "Neil",
-        "Mohammad"
+        "Parth",
+        "Ekaansh",
+        "Karthika",
+        "Nithil",
+        "Aakash"
       ]
     },
     {
@@ -299,50 +288,43 @@
     },
     {
       "day": "Tue",
-      "slot": 2,
-      "track": 3,
-      "teacher": "Zeba",
-      "code": "SST_5",
-      "subject": "SST",
-      "students": [
-        "Myra",
-        "Mythili",
-        "Archana",
-        "Vedaant",
-        "Shlok"
-      ]
-    },
-    {
-      "day": "Tue",
       "slot": 3,
       "track": 1,
       "teacher": "Gayatri",
-      "code": "Eng_5",
+      "code": "Eng_1",
       "subject": "English",
       "students": [
-        "Asmi",
-        "Nuha",
-        "Sahan",
-        "Shlok",
-        "Sruthi",
-        "Vedaant"
+        "Ekaansh",
+        "Aakash"
       ]
     },
     {
       "day": "Tue",
       "slot": 3,
       "track": 2,
+      "teacher": "Sanya",
+      "code": "Sanya_4",
+      "subject": "Math",
+      "students": [
+        "Neil",
+        "Mohammad"
+      ]
+    },
+    {
+      "day": "Tue",
+      "slot": 3,
+      "track": 3,
       "teacher": "Zeba",
-      "code": "SST_1",
+      "code": "SST_3",
       "subject": "SST",
       "students": [
-        "Arhat",
-        "Neil",
-        "Parth",
-        "Ekaansh",
-        "Karthika",
-        "Nithil",
-        "Aakash"
+        "Kanav",
+        "Abhigya",
+        "Sruthi",
+        "Nuha",
+        "Sahan",
+        "Sayan",
+        "Ishita"
       ]
     },
     {
@@ -393,11 +375,15 @@
       "slot": 5,
       "track": 1,
       "teacher": "Gayatri",
-      "code": "Eng_1",
+      "code": "Eng_3",
       "subject": "English",
       "students": [
-        "Ekaansh",
-        "Aakash"
+        "Anik",
+        "Parth",
+        "Arhan",
+        "Arhat",
+        "Karthika",
+        "Kanav"
       ]
     },
     {
@@ -414,96 +400,36 @@
       ]
     },
     {
-      "day": "Wed",
-      "slot": 1,
-      "track": 1,
-      "teacher": "Guru",
-      "code": "Sci_3",
-      "subject": "Science",
-      "students": [
-        "Aashmi",
-        "Vedaant",
-        "Anshika",
-        "Archana",
-        "Asmi",
-        "Sahan"
-      ]
-    },
-    {
-      "day": "Wed",
-      "slot": 1,
-      "track": 2,
-      "teacher": "Sanya",
-      "code": "Sanya_3",
-      "subject": "Math",
-      "students": [
-        "Ishita",
-        "Abhigya",
-        "Sathvik"
-      ]
-    },
-    {
-      "day": "Wed",
-      "slot": 1,
+      "day": "Tue",
+      "slot": 5,
       "track": 3,
-      "teacher": "Usha",
-      "code": "Usha_5",
-      "subject": "Math",
-      "students": [
-        "Sruthi"
-      ]
-    },
-    {
-      "day": "Wed",
-      "slot": 1,
-      "track": 4,
       "teacher": "Zeba",
-      "code": "SST_1",
+      "code": "SST_5",
       "subject": "SST",
       "students": [
-        "Arhat",
-        "Neil",
-        "Parth",
-        "Ekaansh",
-        "Karthika",
-        "Nithil",
-        "Aakash"
-      ]
-    },
-    {
-      "day": "Wed",
-      "slot": 2,
-      "track": 1,
-      "teacher": "Guru",
-      "code": "Sci_5",
-      "subject": "Science",
-      "students": [
-        "Kanav",
         "Myra",
-        "Sayan",
-        "Trisha",
         "Mythili",
+        "Archana",
+        "Vedaant",
         "Shlok"
       ]
     },
     {
       "day": "Wed",
-      "slot": 2,
-      "track": 2,
+      "slot": 1,
+      "track": 1,
       "teacher": "Sanya",
-      "code": "Sanya_2",
+      "code": "Sanya_4",
       "subject": "Math",
       "students": [
-        "Nithil",
-        "Aakash",
-        "Nuha",
-        "Karthika"
+        "Neil",
+        "Mohammad"
       ]
     },
     {
       "day": "Wed",
-      "slot": 2,
-      "track": 3,
+      "slot": 1,
+      "track": 2,
       "teacher": "Usha",
       "code": "Usha_1",
       "subject": "Math",
@@ -516,50 +442,8 @@
     },
     {
       "day": "Wed",
-      "slot": 3,
-      "track": 1,
-      "teacher": "Guru",
-      "code": "Sci_4",
-      "subject": "Science",
-      "students": [
-        "Arhan",
-        "Arjun",
-        "Nithil",
-        "Parth",
-        "Sathvik",
-        "Anik"
-      ]
-    },
-    {
-      "day": "Wed",
-      "slot": 3,
-      "track": 2,
-      "teacher": "Sanya",
-      "code": "Sanya_4",
-      "subject": "Math",
-      "students": [
-        "Neil",
-        "Mohammad"
-      ]
-    },
-    {
-      "day": "Wed",
-      "slot": 3,
+      "slot": 1,
       "track": 3,
-      "teacher": "Usha",
-      "code": "Usha_3",
-      "subject": "Math",
-      "students": [
-        "Archana",
-        "Myra",
-        "Mythili",
-        "Shlok"
-      ]
-    },
-    {
-      "day": "Wed",
-      "slot": 3,
-      "track": 4,
       "teacher": "Zeba",
       "code": "SST_3",
       "subject": "SST",
@@ -575,8 +459,24 @@
     },
     {
       "day": "Wed",
-      "slot": 4,
+      "slot": 2,
       "track": 1,
+      "teacher": "Guru",
+      "code": "Sci_4",
+      "subject": "Science",
+      "students": [
+        "Arhan",
+        "Arjun",
+        "Nithil",
+        "Parth",
+        "Sathvik",
+        "Anik"
+      ]
+    },
+    {
+      "day": "Wed",
+      "slot": 2,
+      "track": 2,
       "teacher": "Shravani",
       "code": "Sci_2",
       "subject": "Science",
@@ -590,30 +490,116 @@
     },
     {
       "day": "Wed",
-      "slot": 4,
-      "track": 2,
+      "slot": 2,
+      "track": 3,
       "teacher": "Usha",
-      "code": "Usha_4",
+      "code": "Usha_3",
       "subject": "Math",
       "students": [
+        "Archana",
+        "Myra",
+        "Mythili",
+        "Shlok"
+      ]
+    },
+    {
+      "day": "Wed",
+      "slot": 3,
+      "track": 1,
+      "teacher": "Sanya",
+      "code": "Sanya_2",
+      "subject": "Math",
+      "students": [
+        "Nithil",
+        "Aakash",
+        "Nuha",
+        "Karthika"
+      ]
+    },
+    {
+      "day": "Wed",
+      "slot": 3,
+      "track": 2,
+      "teacher": "Usha",
+      "code": "Usha_2",
+      "subject": "Math",
+      "students": [
+        "Aashmi",
+        "Arhan",
+        "Trisha",
+        "Vedaant",
+        "Kanav"
+      ]
+    },
+    {
+      "day": "Wed",
+      "slot": 3,
+      "track": 3,
+      "teacher": "Zeba",
+      "code": "SST_2",
+      "subject": "SST",
+      "students": [
         "Anik",
-        "Sahan",
-        "Sayan"
+        "Mohammad",
+        "Arjun",
+        "Sathvik"
+      ]
+    },
+    {
+      "day": "Wed",
+      "slot": 4,
+      "track": 1,
+      "teacher": "Guru",
+      "code": "Sci_5",
+      "subject": "Science",
+      "students": [
+        "Kanav",
+        "Myra",
+        "Sayan",
+        "Trisha",
+        "Mythili",
+        "Shlok"
+      ]
+    },
+    {
+      "day": "Wed",
+      "slot": 4,
+      "track": 2,
+      "teacher": "Sanya",
+      "code": "Sanya_3",
+      "subject": "Math",
+      "students": [
+        "Ishita",
+        "Abhigya",
+        "Sathvik"
       ]
     },
     {
       "day": "Wed",
       "slot": 4,
       "track": 3,
+      "teacher": "Usha",
+      "code": "Usha_5",
+      "subject": "Math",
+      "students": [
+        "Sruthi"
+      ]
+    },
+    {
+      "day": "Wed",
+      "slot": 4,
+      "track": 4,
       "teacher": "Zeba",
-      "code": "SST_4",
+      "code": "SST_1",
       "subject": "SST",
       "students": [
-        "Arhan",
-        "Asmi",
-        "Anshika",
-        "Trisha",
-        "Aashmi"
+        "Arhat",
+        "Neil",
+        "Parth",
+        "Ekaansh",
+        "Karthika",
+        "Nithil",
+        "Aakash"
       ]
     },
     {
@@ -648,14 +634,12 @@
       "slot": 5,
       "track": 3,
       "teacher": "Usha",
-      "code": "Usha_2",
+      "code": "Usha_4",
       "subject": "Math",
       "students": [
-        "Aashmi",
-        "Arhan",
-        "Trisha",
-        "Vedaant",
-        "Kanav"
+        "Anik",
+        "Sahan",
+        "Sayan"
       ]
     },
     {
@@ -663,102 +647,19 @@
       "slot": 5,
       "track": 4,
       "teacher": "Zeba",
-      "code": "SST_2",
+      "code": "SST_4",
       "subject": "SST",
       "students": [
-        "Anik",
-        "Mohammad",
-        "Arjun",
-        "Sathvik"
-      ]
-    },
-    {
-      "day": "Thu",
-      "slot": 1,
-      "track": 1,
-      "teacher": "Gayatri",
-      "code": "Eng_3",
-      "subject": "English",
-      "students": [
-        "Anik",
-        "Parth",
         "Arhan",
-        "Arhat",
-        "Karthika",
-        "Kanav"
-      ]
-    },
-    {
-      "day": "Thu",
-      "slot": 1,
-      "track": 2,
-      "teacher": "Guru",
-      "code": "Sci_3",
-      "subject": "Science",
-      "students": [
-        "Aashmi",
-        "Vedaant",
-        "Anshika",
-        "Archana",
         "Asmi",
-        "Sahan"
+        "Anshika",
+        "Trisha",
+        "Aashmi"
       ]
     },
     {
       "day": "Thu",
       "slot": 1,
-      "track": 3,
-      "teacher": "Usha",
-      "code": "Usha_5",
-      "subject": "Math",
-      "students": [
-        "Sruthi"
-      ]
-    },
-    {
-      "day": "Thu",
-      "slot": 2,
-      "track": 1,
-      "teacher": "Gayatri",
-      "code": "Eng_1",
-      "subject": "English",
-      "students": [
-        "Ekaansh",
-        "Aakash"
-      ]
-    },
-    {
-      "day": "Thu",
-      "slot": 2,
-      "track": 2,
-      "teacher": "Usha",
-      "code": "Usha_2",
-      "subject": "Math",
-      "students": [
-        "Aashmi",
-        "Arhan",
-        "Trisha",
-        "Vedaant",
-        "Kanav"
-      ]
-    },
-    {
-      "day": "Thu",
-      "slot": 2,
-      "track": 3,
-      "teacher": "Zeba",
-      "code": "SST_2",
-      "subject": "SST",
-      "students": [
-        "Anik",
-        "Mohammad",
-        "Arjun",
-        "Sathvik"
-      ]
-    },
-    {
-      "day": "Thu",
-      "slot": 3,
       "track": 1,
       "teacher": "Gayatri",
       "code": "Eng_2",
@@ -777,7 +678,7 @@
     },
     {
       "day": "Thu",
-      "slot": 3,
+      "slot": 1,
       "track": 2,
       "teacher": "Guru",
       "code": "Sanya_1",
@@ -789,7 +690,7 @@
     },
     {
       "day": "Thu",
-      "slot": 3,
+      "slot": 1,
       "track": 3,
       "teacher": "Usha",
       "code": "Usha_3",
@@ -799,6 +700,90 @@
         "Myra",
         "Mythili",
         "Shlok"
+      ]
+    },
+    {
+      "day": "Thu",
+      "slot": 2,
+      "track": 1,
+      "teacher": "Gayatri",
+      "code": "Eng_3",
+      "subject": "English",
+      "students": [
+        "Anik",
+        "Parth",
+        "Arhan",
+        "Arhat",
+        "Karthika",
+        "Kanav"
+      ]
+    },
+    {
+      "day": "Thu",
+      "slot": 2,
+      "track": 2,
+      "teacher": "Guru",
+      "code": "Sci_3",
+      "subject": "Science",
+      "students": [
+        "Aashmi",
+        "Vedaant",
+        "Anshika",
+        "Archana",
+        "Asmi",
+        "Sahan"
+      ]
+    },
+    {
+      "day": "Thu",
+      "slot": 2,
+      "track": 3,
+      "teacher": "Usha",
+      "code": "Usha_5",
+      "subject": "Math",
+      "students": [
+        "Sruthi"
+      ]
+    },
+    {
+      "day": "Thu",
+      "slot": 3,
+      "track": 1,
+      "teacher": "Gayatri",
+      "code": "Eng_1",
+      "subject": "English",
+      "students": [
+        "Ekaansh",
+        "Aakash"
+      ]
+    },
+    {
+      "day": "Thu",
+      "slot": 3,
+      "track": 2,
+      "teacher": "Usha",
+      "code": "Usha_2",
+      "subject": "Math",
+      "students": [
+        "Aashmi",
+        "Arhan",
+        "Trisha",
+        "Vedaant",
+        "Kanav"
+      ]
+    },
+    {
+      "day": "Thu",
+      "slot": 3,
+      "track": 3,
+      "teacher": "Zeba",
+      "code": "SST_2",
+      "subject": "SST",
+      "students": [
+        "Anik",
+        "Mohammad",
+        "Arjun",
+        "Sathvik"
       ]
     },
     {
@@ -828,6 +813,21 @@
         "Asmi",
         "Arjun",
         "Arhat"
+      ]
+    },
+    {
+      "day": "Thu",
+      "slot": 4,
+      "track": 3,
+      "teacher": "Zeba",
+      "code": "SST_5",
+      "subject": "SST",
+      "students": [
+        "Myra",
+        "Mythili",
+        "Archana",
+        "Vedaant",
+        "Shlok"
       ]
     },
     {
@@ -867,14 +867,14 @@
       "slot": 5,
       "track": 2,
       "teacher": "Zeba",
-      "code": "SST_5",
+      "code": "SST_4",
       "subject": "SST",
       "students": [
-        "Myra",
-        "Mythili",
-        "Archana",
-        "Vedaant",
-        "Shlok"
+        "Arhan",
+        "Asmi",
+        "Anshika",
+        "Trisha",
+        "Aashmi"
       ]
     }
   ],

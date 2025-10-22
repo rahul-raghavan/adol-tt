@@ -8,7 +8,7 @@
 
 ## Build, Test, and Development Commands
 - `pip install -r requirements.txt` – install runtime dependencies (currently OR-Tools 9.14). Required before running the solver or server locally.
-- `python server.py` – solve the timetable (hard model first, soft fallback if needed) and start the local server at `http://127.0.0.1:8000/`.
+- `python server.py` – solve the timetable (hard model first, soft fallback if needed) and start the local server. Honors `PORT`/`HOST` env vars (defaults to `0.0.0.0:8000`).
 - `python -m solver_with_ui.server` – equivalent module entry-point, useful when running from other tooling.
 - `curl http://127.0.0.1:8000/api/timetable` – retrieve the latest JSON payload for quick sanity checks or integration tests.
 

@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import csv
 import json
+import os
 import signal
 from collections import defaultdict
 from dataclasses import dataclass
@@ -405,10 +406,12 @@ def initialize_timetable() -> Tuple[Dict[str, object], str]:
     return payload, csv_name
 
 
-def run_server() -> None:
+def run_server(host: Optional[str] = None, port: Optional[int] = None) -> None:
     global TIMETABLE_PAYLOAD, TIMETABLE_SOURCE
     TIMETABLE_PAYLOAD, TIMETABLE_SOURCE = initialize_timetable()
-    server = ThreadingHTTPServer(("127.0.0.1", 8000), TimetableHandler)
+    host = host or os.environ.get("HOST", "0.0.0.0")
+    port = port or int(os.environ.get("PORT", "8000"))
+    server = ThreadingHTTPServer((host, port), TimetableHandler)
 
     def shutdown_handler(signum: int, _: Optional[object]) -> None:
         print(f"\nReceived signal {signum}. Shutting down.")
@@ -418,7 +421,10 @@ def run_server() -> None:
     signal.signal(signal.SIGTERM, shutdown_handler)
 
     source_file = TIMETABLE_SOURCE or HARD_CSV.name
-    print(f"Server running at http://127.0.0.1:8000/  — Timetable source: {source_file}")
+    print(
+        f"Server running at http://{host}:{port}/  — Timetable source: {source_file}",
+        flush=True,
+    )
     server.serve_forever()
 
 
